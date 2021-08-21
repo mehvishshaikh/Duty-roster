@@ -1,0 +1,62 @@
+.profile-item {
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.profile-item-label {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #34395e;
+}
+
+.profile-item-value {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    white-space: normal;
+
+}
+.dt-buttons {
+    padding-left: 0px;
+    display:inline-block;
+    margin-bottom: 5px;
+    
+}
+.btn-success{
+    padding: 4px 8px;
+}
+
+.ui-datepicker-week-end {
+    display:none;
+}
+
+.fc-bgevent{
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 1;
+    background-color: rgba(245, 54, 92, 0.3)!important;
+}
+
+.fc-bgevent span{
+    padding: .2rem .5rem;
+    display: block;
+    margin: 1px 9px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    background-color: #f5365c !important;
+    position: absolute;
+    top: 39px;
+    font-size: .75rem;
+    border-radius: .25rem;
+    text-align: center;
+    z-index: 2;
+    width: calc(100% - 34px);
+}
